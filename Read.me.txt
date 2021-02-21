@@ -1,0 +1,41 @@
+Project Title: FAKE REVIEWS MONITORING SYSTEM
+
+Project team: AREEJ ZAHRA(BSITF16E014)
+              NATASHS MARYAM(BSITF16E037)
+
+Project Introduction:
+
+This system will be a web application, which will be used to detect and delete the fake reviews.
+Reviews play an important role in online market. Positive reviews can increase the profit while negative reviews can bring the market down. 
+Spammers can use fake reviews positively as well as negatively. If these fake reviews are handled in a proper way the efficiency of online shopping can be increased.
+We can handle these fake reviews by monitoring the IP addresses of the users, their browser ID, Geo location and the accounts used by the users.
+To find out the review is fake or genuine, system will find out the IP address of the user if the system observe fake review send by the same IP Address many times,
+it will inform the admin to remove that review from the system. This system helps the user to find out correct review of the product.
+System will work as follows:-
+1: Admin will add products to the system.
+2: Admin will delete the review which is fake.
+3: User once access the system,can view product and can post review about the product.
+4: System will track the IP address of the user.
+   If the system observes fake review coming from same IP address many times this IP address will be tracked by the system and 
+   system will inform the admin to remove this review.
+
+                     Softwares required:
+
+you will need to install:
+1: Notepad++
+2: Xamp server
+
+                     Instructions to run the project:
+
+Step 1: Install XAMPP
+Step 2: Open XAMPP control panel(start the Apache server and MySQL).
+Step 3: Once the Apache and MySQL services are started and running in the background. Now extract the project zip file
+Step 4: After extracting you will see the folder which contains all the code and related files of the project that you have downloaded.
+        Copy this folder and navigate to xampp folder (which is basically located in C drive).
+        Inside this folder (xampp) find the htdocs folder and paste the project folder into this htdocs folder.
+Step 5: Then go to your browser (Chrome) and type in URL field:  localhost and then hit enter.After opening local host go to PhpMyAdmin and create a new database,
+        then import the sql file of project in that.
+Step 6: Now open another tab in the chrome and type in URL field:  localhost/Project Folder Name and hit the enter.
+Step 7: To open admin panel,type in URL field:  localhost/Project Folder Name/admin folder and hit the enter.Your project will start running.
+
+
